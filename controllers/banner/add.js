@@ -1,6 +1,10 @@
 const Banner = require("../../models/banner.model");
 
 class addBanner {
+
+
+
+  
   process = async (req, res, io) => {
     try {
       // Extract banner details from the request body
